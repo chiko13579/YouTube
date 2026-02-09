@@ -3,5 +3,22 @@ dist
 .DS_Store
 .env
 
-# Ignore the output video from Git but not videos you import into src/.
+# Build output
 out
+完成品
+
+# User Content / Large Files
+inputs
+素材/*
+!素材/.gitkeep
+!素材/BGM集/
+# Ignore contents of BGM folder except keep file? No, maybe keep sample.
+# For now, let's keep BGM pool if small, but ignore everything else in 素材
+
+venv/
+__pycache__/
+*.pyc
+
+# OS
+.idea
+.vscode
