@@ -162,6 +162,14 @@ def main():
     # 2. Transcribe
     print("\n--- 文字起こし中 (AI) ---")
     run_command("source venv/bin/activate && python3 transcribe.py")
+
+    print("\n==========================================")
+    print("📝 字幕確認チェック")
+    print("字幕ファイルを編集・修正できます:")
+    print("  - src/subtitles.json")
+    print("")
+    input("修正が終わったら Enter キーを押してください (中断は Ctrl+C)...")
+    print("==========================================")
     
     # 3. Update Duration
     print("\n--- 長さ調整中 ---")

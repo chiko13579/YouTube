@@ -1,0 +1,42 @@
+{
+  "intro": {
+    "type": "image",
+    "visual_src": "/assets/dragon_base.png",
+    "audio_src": "/assets/voice.mp3",
+    "durationInSeconds": 24.9208125
+  },
+  "body": {
+    "timeline": [
+      {
+        "startFrame": 7,
+        "durationInFrames": 113,
+        "video_src": "/assets/stock/scene_0_8627751.mp4",
+        "keyword": "person smiling",
+        "source_duration": 0.0
+      },
+      {
+        "startFrame": 120,
+        "durationInFrames": 160,
+        "video_src": "/assets/stock/scene_1_19798272.mp4",
+        "keyword": "trying something new for a month",
+        "source_duration": 13.801666666666666
+      },
+      {
+        "startFrame": 280,
+        "durationInFrames": 128,
+        "video_src": "/assets/stock/scene_2_5382333.mp4",
+        "keyword": "counting stars at night",
+        "source_duration": 0.0
+      },
+      {
+        "startFrame": 408,
+        "durationInFrames": 366,
+        "video_src": "/assets/stock/scene_3_5956019.mp4",
+        "keyword": "person whispering before bedtime",
+        "source_duration": 0.0
+      }
+    ],
+    "audio_src": "/assets/voice.mp3",
+    "durationInSeconds": 24.9208125
+  }
+}

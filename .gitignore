@@ -15,6 +15,12 @@ inputs
 # Ignore contents of BGM folder except keep file? No, maybe keep sample.
 # For now, let's keep BGM pool if small, but ignore everything else in 素材
 
+# Media files (large binary files)
+public/assets/stock/
+public/assets/*.mp4
+public/assets/*.mp3
+public/assets/*.wav
+
 venv/
 __pycache__/
 *.pyc
